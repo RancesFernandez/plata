@@ -1,0 +1,13 @@
+.panel-heading h3,.settings-content h3{font:700 13px Manrope,sans-serif;margin:0;color:#30364a}
+
+.settings-card{display:flex;align-items:flex-start;gap:15px}
+
+.settings-content{flex:1}
+
+.settings-content>p{font-size:10px;line-height:1.6}
+
+.settings-content label{display:grid;gap:7px;font-size:10px;color:#71798d;max-width:300px;margin-top:17px}
+
+.settings-content select{padding:10px;border:1px solid #e7eaf1;border-radius:9px;background:#fff;color:#555d71}
+
+.version-pill{display:inline-block;font-size:9px;color:#7b6bd8;background:#f1efff;padding:6px 9px;border-radius:7px}

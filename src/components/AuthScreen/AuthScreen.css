@@ -1,0 +1,3 @@
+/* AuthScreen: estilos específicos de accesibilidad y estados. */
+.auth-form input:focus-visible, .auth-form button:focus-visible, .auth-switch button:focus-visible { outline: 2px solid #7465dc; outline-offset: 3px; }
+.auth-form button:disabled { cursor: wait; opacity: .7; }

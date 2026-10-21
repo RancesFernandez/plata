@@ -1,0 +1,13 @@
+:root{font-family:"DM Sans",sans-serif;color:#202538;background:#f7f8fc;font-synthesis:none;text-rendering:optimizeLegibility;-webkit-font-smoothing:antialiased;--ink:#202538;--muted:#8c93a5;--line:#edf0f5;--purple:#7465dc;--purple-dark:#5d4dc6;--mint:#46b99a;--pink:#ed8d9b;--surface:#fff;--shadow:0 8px 30px rgba(31,42,68,.035)}
+
+*{box-sizing:border-box}
+
+body{margin:0;min-width:320px}
+
+button,input,select,textarea{font:inherit}
+
+button{cursor:pointer}
+
+button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible{outline:3px solid #a99dfb66;outline-offset:2px}
+
+button:disabled{opacity:.6;cursor:wait}

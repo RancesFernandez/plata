@@ -1,0 +1,51 @@
+.empty-list{text-align:center;padding:26px 10px;color:#a1a7b5}
+
+.empty-list>span{width:43px;height:43px;border-radius:13px;background:#f4f2ff;color:#8b7ce8;display:grid;place-items:center;margin:0 auto 11px}
+
+.empty-list b{font-size:11px;color:#656d80}
+
+.empty-list p{font-size:10px;margin:6px 0}
+
+.tiny-note{font-size:9px!important;color:#a1a7b5!important}
+
+.modal-backdrop{position:fixed;inset:0;background:#20253855;backdrop-filter:blur(5px);z-index:100;display:grid;place-items:center;padding:20px;overflow:auto}
+
+.modal{width:min(100%,490px);background:white;border-radius:19px;padding:24px;box-shadow:0 25px 90px #1d234030;animation:modal-in .18s ease-out}
+
+.modal-heading{display:flex;align-items:flex-start;justify-content:space-between;gap:12px;margin-bottom:21px}
+
+.modal-heading h2{font:800 19px Manrope;letter-spacing:-.5px;margin:0 0 6px}
+
+.modal-heading p{font-size:10px;color:#969cad;margin:0}
+
+.modal-form{display:grid;gap:15px}
+
+.modal-form textarea{resize:vertical}
+
+.form-row{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+
+.segmented{display:grid;grid-template-columns:1fr 1fr;gap:5px;background:#f6f7fb;padding:4px;border-radius:10px}
+
+.segmented button{border:0;background:transparent;border-radius:8px;padding:10px;display:flex;align-items:center;justify-content:center;gap:7px;color:#9298a9;font-size:11px;font-weight:700}
+
+.segmented button.selected.expense-selected{background:#fff0f2;color:#d97889;box-shadow:0 2px 6px #30344a08}
+
+.segmented button.selected.income-selected{background:#e6f8f1;color:#319b7a;box-shadow:0 2px 6px #30344a08}
+
+.modal-actions{display:flex;justify-content:flex-end;gap:8px;margin-top:5px}
+
+.notice{display:flex;align-items:flex-start;gap:8px;background:#f5f3ff;border:1px solid #e8e3ff;color:#7465ca;border-radius:9px;padding:10px;font-size:10px;line-height:1.5}
+
+.toast{position:fixed;z-index:150;bottom:24px;right:24px;display:flex;align-items:center;gap:9px;padding:13px 15px;border-radius:12px;background:#252a3e;color:white;box-shadow:0 12px 35px #171b2d33;font-size:11px;max-width:min(420px,calc(100vw - 30px));animation:modal-in .2s}
+
+.toast>svg{color:#80e0bd;flex-shrink:0}
+
+.toast button{border:0;background:transparent;color:#d5d7e1;display:grid;place-items:center}
+
+.empty-state{grid-column:1/-1;text-align:center;padding:38px 20px}
+
+.empty-state>span{width:50px;height:50px;border-radius:15px;background:#f0edff;color:#7767dc;display:grid;place-items:center;margin:0 auto 12px}
+
+.empty-state h3{font:700 14px Manrope;margin:0 0 7px}
+
+.empty-state p{font-size:11px;color:#999fb0;margin:0 auto 16px;max-width:340px}

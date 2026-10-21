@@ -1,0 +1,27 @@
+.shared-hero{border-radius:17px;background:linear-gradient(110deg,#e9e5ff,#f6f4ff 58%,#e7f8f2);padding:22px;display:flex;align-items:center;gap:16px}
+
+.shared-hero-icon{width:48px;height:48px;border-radius:14px;background:#fff;color:#7868dc;display:grid;place-items:center;flex-shrink:0}
+
+.shared-hero>div:nth-child(2){flex:1}
+
+.shared-hero h2{font:800 17px Manrope;letter-spacing:-.4px;margin:0 0 6px;color:#393650}
+
+.shared-hero p{font-size:10px;color:#89869f;margin:0;max-width:570px;line-height:1.6}
+
+.shared-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:15px}
+
+.shared-card{padding:19px}
+
+.shared-card-top{display:flex;align-items:center;justify-content:space-between}
+
+.shared-avatar{width:41px;height:41px;display:grid;place-items:center;border-radius:13px;background:#eeebff;color:#7767dc}
+
+.shared-card h3{font:700 14px Manrope;margin:15px 0 5px}
+
+.shared-card>p{font-size:10px;margin:0}
+
+.shared-plan-budget{display:flex;justify-content:space-between;align-items:center;border-top:1px solid #f0f1f6;border-bottom:1px solid #f0f1f6;padding:13px 0;margin:17px 0 12px}
+
+.shared-plan-budget span{font-size:10px;color:#9ca2b1}
+
+.shared-plan-budget strong{font:800 16px Manrope}

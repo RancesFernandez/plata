@@ -1,0 +1,49 @@
+.mini-goals{display:grid;gap:19px;margin-top:22px}
+
+.mini-goal-top{display:flex;align-items:center;gap:9px;margin-bottom:10px}
+
+.goal-emoji{display:grid;place-items:center;width:42px;height:42px;background:#f5f2ff;border-radius:13px;font-size:21px}
+
+.mini-goal-top>div{display:grid;gap:4px;flex:1;min-width:0}
+
+.mini-goal-top b{font-size:10px;color:#52596d}
+
+.mini-goal-top small{font-size:9px;color:#a0a6b5}
+
+.mini-goal-top>strong{font-size:10px;color:#7566dc}
+
+.progress-track{height:6px;border-radius:10px;background:#f0f1f6;overflow:hidden}
+
+.progress-track i{display:block;height:100%;border-radius:10px;background:#8a7be8;transition:width .4s}
+
+.goal-hero{background:linear-gradient(110deg,#e9e5ff,#f3f0ff 58%,#e9f8f3);border:1px solid #ebe8ff;border-radius:18px;padding:24px 30px;display:flex;align-items:center;justify-content:space-between;overflow:hidden;min-height:190px}
+
+.goal-hero h2{font:800 22px Manrope;letter-spacing:-.6px;color:#373450;line-height:1.35;margin:10px 0}
+
+.goal-hero p{font-size:11px;color:#85829d;margin:0}
+
+.goal-hero-art{position:relative;width:180px;height:140px;display:grid;place-items:center;margin-right:25px}
+
+.goal-circle{width:104px;height:104px;border-radius:50%;background:#fff;box-shadow:0 12px 30px #7565db20;display:flex;align-items:center;justify-content:center;flex-direction:column;color:#7868dc;transform:rotate(-8deg)}
+
+.goal-circle span{font-size:9px;font-weight:700;margin-top:4px}
+
+.goal-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:15px}
+
+.goal-card{padding:20px}
+
+.goal-card-top{display:flex;justify-content:space-between;align-items:center}
+
+.goal-card h3{font:700 13px Manrope;margin:14px 0 5px}
+
+.goal-card>p{font-size:10px;margin:0}
+
+.goal-amounts{display:flex;align-items:baseline;gap:5px;margin:20px 0 10px}
+
+.goal-amounts strong{font:800 22px Manrope;letter-spacing:-.5px}
+
+.goal-amounts span{font-size:10px;color:#9ca2b2}
+
+.goal-progress{height:8px}
+
+.goal-card-bottom{display:flex;justify-content:space-between;align-items:center;margin-top:10px;font-size:10px;color:#9ca2b2}

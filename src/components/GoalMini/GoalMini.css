@@ -1,0 +1,3 @@
+/* GoalMini: limita el desbordamiento de nombres largos. */
+.mini-goal-top > div { min-width: 0; }
+.mini-goal-top b, .mini-goal-top small { overflow-wrap: anywhere; }

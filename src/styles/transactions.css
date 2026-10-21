@@ -1,0 +1,27 @@
+.transaction-list{margin-top:14px}
+
+.transaction-row{display:flex;align-items:center;gap:11px;padding:11px 0;border-bottom:1px solid #f1f2f6;min-width:0}
+
+.transaction-row:last-child{border-bottom:0}
+
+.transaction-icon{width:35px;height:35px;border-radius:11px;display:grid;place-items:center;font-size:16px;flex-shrink:0}
+
+.transaction-name{display:grid;gap:4px;min-width:0;flex:1}
+
+.transaction-name b{font-size:11px;color:#434a5f;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+
+.transaction-name span{font-size:9px;color:#a0a6b5}
+
+.transaction-amount{font-size:11px;font-weight:700;white-space:nowrap}
+
+.text-income{color:#38a785}
+
+.text-expense{color:#df7d8c}
+
+.transaction-row:hover .row-delete{opacity:1}
+
+.table-tools{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:17px 0 6px}
+
+.search-box{display:flex;align-items:center;gap:8px;background:#fafbfe;border:1px solid #eceef5;border-radius:9px;padding:0 11px;width:min(320px,100%);height:37px;color:#969cad}
+
+.search-box input{border:0;background:transparent;outline:none;width:100%;font-size:11px;color:#51596e}
